@@ -1,0 +1,850 @@
+[
+  {
+    "id": "provider-1",
+    "name": "Prime Plumbing",
+    "service": "plumber",
+    "city": "Makkah",
+    "rating": 5.0,
+    "contact": "+966527059338"
+  },
+  {
+    "id": "provider-2",
+    "name": "Yasir PipeFix",
+    "service": "plumber",
+    "city": "Dammam",
+    "rating": 4.1,
+    "contact": "+966519848431"
+  },
+  {
+    "id": "provider-3",
+    "name": "AquaFix Solutions",
+    "service": "plumber",
+    "city": "Jeddah",
+    "rating": 4.1,
+    "contact": "+966562484234"
+  },
+  {
+    "id": "provider-4",
+    "name": "RapidFlow Services",
+    "service": "plumber",
+    "city": "Madinah",
+    "rating": 4.8,
+    "contact": "+966590605304"
+  },
+  {
+    "id": "provider-5",
+    "name": "SmartFix Plumbers",
+    "service": "plumber",
+    "city": "Taif",
+    "rating": 4.8,
+    "contact": "+966524348199"
+  },
+  {
+    "id": "provider-6",
+    "name": "Ziad Drain Masters",
+    "service": "plumber",
+    "city": "Jeddah",
+    "rating": 4.5,
+    "contact": "+966536886196"
+  },
+  {
+    "id": "provider-7",
+    "name": "BlueTap Solutions",
+    "service": "plumber",
+    "city": "Madinah",
+    "rating": 4.4,
+    "contact": "+966557234697"
+  },
+  {
+    "id": "provider-8",
+    "name": "Clean Pipe Co",
+    "service": "plumber",
+    "city": "Makkah",
+    "rating": 4.7,
+    "contact": "+966541873554"
+  },
+  {
+    "id": "provider-9",
+    "name": "UrbanFlow",
+    "service": "plumber",
+    "city": "Dammam",
+    "rating": 3.7,
+    "contact": "+966569209803"
+  },
+  {
+    "id": "provider-10",
+    "name": "FreshWater Systems",
+    "service": "plumber",
+    "city": "Madinah",
+    "rating": 4.6,
+    "contact": "+966570549340"
+  },
+  {
+    "id": "provider-11",
+    "name": "PipeLine Experts",
+    "service": "plumber",
+    "city": "Riyadh",
+    "rating": 4.4,
+    "contact": "+966594941494"
+  },
+  {
+    "id": "provider-12",
+    "name": "Elite Electric",
+    "service": "electrician",
+    "city": "Madinah",
+    "rating": 3.5,
+    "contact": "+966597592847"
+  },
+  {
+    "id": "provider-13",
+    "name": "Hassan Electric Co.",
+    "service": "electrician",
+    "city": "Jeddah",
+    "rating": 3.6,
+    "contact": "+966580510105"
+  },
+  {
+    "id": "provider-14",
+    "name": "VoltCare Co.",
+    "service": "electrician",
+    "city": "Makkah",
+    "rating": 3.6,
+    "contact": "+966588988114"
+  },
+  {
+    "id": "provider-15",
+    "name": "PowerGrid Experts",
+    "service": "electrician",
+    "city": "Jeddah",
+    "rating": 3.9,
+    "contact": "+966537013141"
+  },
+  {
+    "id": "provider-16",
+    "name": "Metro Wiring Co.",
+    "service": "electrician",
+    "city": "Riyadh",
+    "rating": 3.8,
+    "contact": "+966522340642"
+  },
+  {
+    "id": "provider-17",
+    "name": "BrightVolt Electricians",
+    "service": "electrician",
+    "city": "Riyadh",
+    "rating": 3.9,
+    "contact": "+966587297648"
+  },
+  {
+    "id": "provider-18",
+    "name": "ChillFix HVAC",
+    "service": "ac-repair",
+    "city": "Madinah",
+    "rating": 4.7,
+    "contact": "+966515730504"
+  },
+  {
+    "id": "provider-19",
+    "name": "BreezyTech",
+    "service": "ac-repair",
+    "city": "Madinah",
+    "rating": 4.8,
+    "contact": "+966539965135"
+  },
+  {
+    "id": "provider-20",
+    "name": "ArcticFix",
+    "service": "ac-repair",
+    "city": "Dammam",
+    "rating": 3.8,
+    "contact": "+966540919681"
+  },
+  {
+    "id": "provider-21",
+    "name": "PolarCool Systems",
+    "service": "ac-repair",
+    "city": "Makkah",
+    "rating": 4.3,
+    "contact": "+966573558641"
+  },
+  {
+    "id": "provider-22",
+    "name": "CoolPoint Professionals",
+    "service": "ac-repair",
+    "city": "Jeddah",
+    "rating": 4.7,
+    "contact": "+966524211752"
+  },
+  {
+    "id": "provider-23",
+    "name": "FreshAir AC",
+    "service": "ac-repair",
+    "city": "Madinah",
+    "rating": 4.6,
+    "contact": "+966557489599"
+  },
+  {
+    "id": "provider-24",
+    "name": "Omar AirTech",
+    "service": "ac-repair",
+    "city": "Riyadh",
+    "rating": 4.9,
+    "contact": "+966531113701"
+  },
+  {
+    "id": "provider-25",
+    "name": "ProTemp Services",
+    "service": "ac-repair",
+    "city": "Makkah",
+    "rating": 3.9,
+    "contact": "+966570888215"
+  },
+  {
+    "id": "provider-26",
+    "name": "Sparkle Cleaners",
+    "service": "house-cleaning",
+    "city": "Riyadh",
+    "rating": 3.9,
+    "contact": "+966563431965"
+  },
+  {
+    "id": "provider-27",
+    "name": "ShinyHome Services",
+    "service": "house-cleaning",
+    "city": "Dammam",
+    "rating": 4.2,
+    "contact": "+966532235146"
+  },
+  {
+    "id": "provider-28",
+    "name": "HomeGlow Cleaning",
+    "service": "house-cleaning",
+    "city": "Dammam",
+    "rating": 4.3,
+    "contact": "+966593557962"
+  },
+  {
+    "id": "provider-29",
+    "name": "NeatNest Co.",
+    "service": "house-cleaning",
+    "city": "Jeddah",
+    "rating": 4.7,
+    "contact": "+966567301991"
+  },
+  {
+    "id": "provider-30",
+    "name": "CrystalClean",
+    "service": "house-cleaning",
+    "city": "Makkah",
+    "rating": 4.9,
+    "contact": "+966521536545"
+  },
+  {
+    "id": "provider-31",
+    "name": "Bright Living",
+    "service": "house-cleaning",
+    "city": "Madinah",
+    "rating": 4.3,
+    "contact": "+966552275181"
+  },
+  {
+    "id": "provider-32",
+    "name": "SwiftSweep",
+    "service": "house-cleaning",
+    "city": "Riyadh",
+    "rating": 4.2,
+    "contact": "+966586703058"
+  },
+  {
+    "id": "provider-33",
+    "name": "EasyClean Solutions",
+    "service": "house-cleaning",
+    "city": "Madinah",
+    "rating": 4.1,
+    "contact": "+966513703960"
+  },
+  {
+    "id": "provider-34",
+    "name": "PureMaid",
+    "service": "house-cleaning",
+    "city": "Jeddah",
+    "rating": 4.6,
+    "contact": "+966538552549"
+  },
+  {
+    "id": "provider-35",
+    "name": "FreshSpace Cleaning",
+    "service": "house-cleaning",
+    "city": "Riyadh",
+    "rating": 4.2,
+    "contact": "+966565936012"
+  },
+  {
+    "id": "provider-36",
+    "name": "BugShield Experts",
+    "service": "pest-control",
+    "city": "Makkah",
+    "rating": 4.3,
+    "contact": "+966563588798"
+  },
+  {
+    "id": "provider-37",
+    "name": "PestAway Co.",
+    "service": "pest-control",
+    "city": "Taif",
+    "rating": 4.2,
+    "contact": "+966551666199"
+  },
+  {
+    "id": "provider-38",
+    "name": "SafeHouse Exterminators",
+    "service": "pest-control",
+    "city": "Riyadh",
+    "rating": 4.5,
+    "contact": "+966532025219"
+  },
+  {
+    "id": "provider-39",
+    "name": "CritterClean Solutions",
+    "service": "pest-control",
+    "city": "Dammam",
+    "rating": 4.2,
+    "contact": "+966593059221"
+  },
+  {
+    "id": "provider-40",
+    "name": "InsectGuard",
+    "service": "pest-control",
+    "city": "Taif",
+    "rating": 3.9,
+    "contact": "+966592113920"
+  },
+  {
+    "id": "provider-41",
+    "name": "GreenThumbs",
+    "service": "gardener",
+    "city": "Dammam",
+    "rating": 4.6,
+    "contact": "+966561512599"
+  },
+  {
+    "id": "provider-42",
+    "name": "Urban Gardens",
+    "service": "gardener",
+    "city": "Dammam",
+    "rating": 4.8,
+    "contact": "+966515614549"
+  },
+  {
+    "id": "provider-43",
+    "name": "LawnPro Services",
+    "service": "gardener",
+    "city": "Taif",
+    "rating": 4.2,
+    "contact": "+966560183934"
+  },
+  {
+    "id": "provider-44",
+    "name": "Royal Landscaping",
+    "service": "gardener",
+    "city": "Madinah",
+    "rating": 4.2,
+    "contact": "+966586030217"
+  },
+  {
+    "id": "provider-45",
+    "name": "GardenCrafters",
+    "service": "gardener",
+    "city": "Makkah",
+    "rating": 3.7,
+    "contact": "+966511828503"
+  },
+  {
+    "id": "provider-46",
+    "name": "LeafLine Pros",
+    "service": "gardener",
+    "city": "Jeddah",
+    "rating": 3.5,
+    "contact": "+966560285535"
+  },
+  {
+    "id": "provider-47",
+    "name": "NatureScape",
+    "service": "gardener",
+    "city": "Dammam",
+    "rating": 4.4,
+    "contact": "+966595134904"
+  },
+  {
+    "id": "provider-48",
+    "name": "GrassGenius",
+    "service": "gardener",
+    "city": "Jeddah",
+    "rating": 4.4,
+    "contact": "+966550675485"
+  },
+  {
+    "id": "provider-49",
+    "name": "CleanEdge Gardening",
+    "service": "gardener",
+    "city": "Madinah",
+    "rating": 4.4,
+    "contact": "+966588002359"
+  },
+  {
+    "id": "provider-50",
+    "name": "WoodCraft Studios",
+    "service": "carpenter",
+    "city": "Taif",
+    "rating": 4.4,
+    "contact": "+966543470560"
+  },
+  {
+    "id": "provider-51",
+    "name": "TimberWorks Co.",
+    "service": "carpenter",
+    "city": "Makkah",
+    "rating": 3.5,
+    "contact": "+966595260634"
+  },
+  {
+    "id": "provider-52",
+    "name": "ProBuild Carpentry",
+    "service": "carpenter",
+    "city": "Dammam",
+    "rating": 4.6,
+    "contact": "+966555192994"
+  },
+  {
+    "id": "provider-53",
+    "name": "SolidFrame",
+    "service": "carpenter",
+    "city": "Makkah",
+    "rating": 4.9,
+    "contact": "+966554742955"
+  },
+  {
+    "id": "provider-54",
+    "name": "OakEdge Creations",
+    "service": "carpenter",
+    "city": "Dammam",
+    "rating": 5.0,
+    "contact": "+966578466114"
+  },
+  {
+    "id": "provider-55",
+    "name": "Fahad Craft Carpentry",
+    "service": "carpenter",
+    "city": "Riyadh",
+    "rating": 4.6,
+    "contact": "+966592455919"
+  },
+  {
+    "id": "provider-56",
+    "name": "TrueGrain Woodworks",
+    "service": "carpenter",
+    "city": "Taif",
+    "rating": 4.2,
+    "contact": "+966594364791"
+  },
+  {
+    "id": "provider-57",
+    "name": "Golden Hammer",
+    "service": "carpenter",
+    "city": "Dammam",
+    "rating": 4.7,
+    "contact": "+966537431954"
+  },
+  {
+    "id": "provider-58",
+    "name": "WoodWise Services",
+    "service": "carpenter",
+    "city": "Taif",
+    "rating": 4.3,
+    "contact": "+966535345314"
+  },
+  {
+    "id": "provider-59",
+    "name": "UrbanWood",
+    "service": "carpenter",
+    "city": "Riyadh",
+    "rating": 3.8,
+    "contact": "+966519933045"
+  },
+  {
+    "id": "provider-60",
+    "name": "FreshSpin Laundry",
+    "service": "laundry",
+    "city": "Madinah",
+    "rating": 3.9,
+    "contact": "+966588655479"
+  },
+  {
+    "id": "provider-61",
+    "name": "SwiftFold Services",
+    "service": "laundry",
+    "city": "Taif",
+    "rating": 3.9,
+    "contact": "+966536076837"
+  },
+  {
+    "id": "provider-62",
+    "name": "EasyFresh Laundry",
+    "service": "laundry",
+    "city": "Riyadh",
+    "rating": 4.0,
+    "contact": "+966559602722"
+  },
+  {
+    "id": "provider-63",
+    "name": "EcoWash Pros",
+    "service": "laundry",
+    "city": "Jeddah",
+    "rating": 4.4,
+    "contact": "+966587319672"
+  },
+  {
+    "id": "provider-64",
+    "name": "QuickFold Laundry",
+    "service": "laundry",
+    "city": "Madinah",
+    "rating": 4.9,
+    "contact": "+966547485318"
+  },
+  {
+    "id": "provider-65",
+    "name": "TotalDry Cleaners",
+    "service": "laundry",
+    "city": "Madinah",
+    "rating": 3.9,
+    "contact": "+966557602710"
+  },
+  {
+    "id": "provider-66",
+    "name": "Yasir CleanPress",
+    "service": "laundry",
+    "city": "Dammam",
+    "rating": 4.8,
+    "contact": "+966533378054"
+  },
+  {
+    "id": "provider-67",
+    "name": "SecureView Co.",
+    "service": "cctv-installation",
+    "city": "Madinah",
+    "rating": 4.4,
+    "contact": "+966579041319"
+  },
+  {
+    "id": "provider-68",
+    "name": "SafeVision Tech",
+    "service": "cctv-installation",
+    "city": "Makkah",
+    "rating": 4.2,
+    "contact": "+966555600478"
+  },
+  {
+    "id": "provider-69",
+    "name": "GuardianCam Systems",
+    "service": "cctv-installation",
+    "city": "Jeddah",
+    "rating": 3.5,
+    "contact": "+966568284744"
+  },
+  {
+    "id": "provider-70",
+    "name": "EyeSecure",
+    "service": "cctv-installation",
+    "city": "Jeddah",
+    "rating": 4.2,
+    "contact": "+966597126968"
+  },
+  {
+    "id": "provider-71",
+    "name": "Visionary CCTV",
+    "service": "cctv-installation",
+    "city": "Riyadh",
+    "rating": 3.9,
+    "contact": "+966562670058"
+  },
+  {
+    "id": "provider-72",
+    "name": "AlertLine Installers",
+    "service": "cctv-installation",
+    "city": "Riyadh",
+    "rating": 4.2,
+    "contact": "+966523541395"
+  },
+  {
+    "id": "provider-73",
+    "name": "TrueSecure Solutions",
+    "service": "cctv-installation",
+    "city": "Riyadh",
+    "rating": 4.8,
+    "contact": "+966587721733"
+  },
+  {
+    "id": "provider-74",
+    "name": "ShieldTech",
+    "service": "cctv-installation",
+    "city": "Makkah",
+    "rating": 4.7,
+    "contact": "+966589211898"
+  },
+  {
+    "id": "provider-75",
+    "name": "SafeSight Co.",
+    "service": "cctv-installation",
+    "city": "Taif",
+    "rating": 4.7,
+    "contact": "+966583535071"
+  },
+  {
+    "id": "provider-76",
+    "name": "TotalGuard Systems",
+    "service": "cctv-installation",
+    "city": "Madinah",
+    "rating": 4.4,
+    "contact": "+966599511081"
+  },
+  {
+    "id": "provider-77",
+    "name": "SecureTech Installers",
+    "service": "cctv-installation",
+    "city": "Jeddah",
+    "rating": 3.9,
+    "contact": "+966557555139"
+  },
+  {
+    "id": "provider-78",
+    "name": "CamZone Installations",
+    "service": "cctv-installation",
+    "city": "Riyadh",
+    "rating": 3.9,
+    "contact": "+966513656562"
+  },
+  {
+    "id": "provider-79",
+    "name": "SmartLearn Tutors",
+    "service": "home-tutor",
+    "city": "Dammam",
+    "rating": 4.4,
+    "contact": "+966582947523"
+  },
+  {
+    "id": "provider-80",
+    "name": "Rashid SmartEd",
+    "service": "home-tutor",
+    "city": "Jeddah",
+    "rating": 4.2,
+    "contact": "+966531937366"
+  },
+  {
+    "id": "provider-81",
+    "name": "Bright Minds Education",
+    "service": "home-tutor",
+    "city": "Dammam",
+    "rating": 4.1,
+    "contact": "+966557418534"
+  },
+  {
+    "id": "provider-82",
+    "name": "HomeEd Services",
+    "service": "home-tutor",
+    "city": "Dammam",
+    "rating": 3.7,
+    "contact": "+966568564716"
+  },
+  {
+    "id": "provider-83",
+    "name": "FutureFocus Tutors",
+    "service": "home-tutor",
+    "city": "Madinah",
+    "rating": 4.5,
+    "contact": "+966550928775"
+  },
+  {
+    "id": "provider-84",
+    "name": "ClearPath Learning",
+    "service": "home-tutor",
+    "city": "Madinah",
+    "rating": 5.0,
+    "contact": "+966556110225"
+  },
+  {
+    "id": "provider-85",
+    "name": "Golden Care Services",
+    "service": "elder-care",
+    "city": "Taif",
+    "rating": 5.0,
+    "contact": "+966524990112"
+  },
+  {
+    "id": "provider-86",
+    "name": "PrimeSenior Help",
+    "service": "elder-care",
+    "city": "Madinah",
+    "rating": 4.5,
+    "contact": "+966532531282"
+  },
+  {
+    "id": "provider-87",
+    "name": "SeniorCompanions",
+    "service": "elder-care",
+    "city": "Jeddah",
+    "rating": 3.9,
+    "contact": "+966544026057"
+  },
+  {
+    "id": "provider-88",
+    "name": "SafeAging Support",
+    "service": "elder-care",
+    "city": "Madinah",
+    "rating": 4.7,
+    "contact": "+966596467143"
+  },
+  {
+    "id": "provider-89",
+    "name": "ComfortCare Assistants",
+    "service": "elder-care",
+    "city": "Madinah",
+    "rating": 4.6,
+    "contact": "+966582220419"
+  },
+  {
+    "id": "provider-90",
+    "name": "TrustedCare",
+    "service": "elder-care",
+    "city": "Riyadh",
+    "rating": 3.7,
+    "contact": "+966524998287"
+  },
+  {
+    "id": "provider-91",
+    "name": "SilverLine Aides",
+    "service": "elder-care",
+    "city": "Riyadh",
+    "rating": 3.9,
+    "contact": "+966570350017"
+  },
+  {
+    "id": "provider-92",
+    "name": "WarmTouch Care",
+    "service": "elder-care",
+    "city": "Riyadh",
+    "rating": 3.7,
+    "contact": "+966551019417"
+  },
+  {
+    "id": "provider-93",
+    "name": "VitalHelp Homecare",
+    "service": "elder-care",
+    "city": "Dammam",
+    "rating": 3.6,
+    "contact": "+966592238432"
+  },
+  {
+    "id": "provider-94",
+    "name": "LifeEase Care",
+    "service": "elder-care",
+    "city": "Jeddah",
+    "rating": 4.3,
+    "contact": "+966564977748"
+  },
+  {
+    "id": "provider-95",
+    "name": "SereneAging Co.",
+    "service": "elder-care",
+    "city": "Makkah",
+    "rating": 4.4,
+    "contact": "+966568963768"
+  },
+  {
+    "id": "provider-96",
+    "name": "AgeWell Services",
+    "service": "elder-care",
+    "city": "Riyadh",
+    "rating": 4.3,
+    "contact": "+966566582873"
+  },
+  {
+    "id": "provider-97",
+    "name": "Elder Assist Pro",
+    "service": "elder-care",
+    "city": "Madinah",
+    "rating": 4.9,
+    "contact": "+966581588304"
+  },
+  {
+    "id": "provider-98",
+    "name": "CareGivers Co.",
+    "service": "elder-care",
+    "city": "Jeddah",
+    "rating": 4.6,
+    "contact": "+966551338646"
+  },
+  {
+    "id": "provider-99",
+    "name": "ShiftEase Movers",
+    "service": "home-moving",
+    "city": "Makkah",
+    "rating": 4.8,
+    "contact": "+966565349775"
+  },
+  {
+    "id": "provider-100",
+    "name": "QuickShift Co.",
+    "service": "home-moving",
+    "city": "Makkah",
+    "rating": 5.0,
+    "contact": "+966587802111"
+  },
+  {
+    "id": "provider-101",
+    "name": "MovePro Logistics",
+    "service": "home-moving",
+    "city": "Makkah",
+    "rating": 3.6,
+    "contact": "+966540052919"
+  },
+  {
+    "id": "provider-102",
+    "name": "RapidHaul",
+    "service": "home-moving",
+    "city": "Makkah",
+    "rating": 4.6,
+    "contact": "+966592968998"
+  },
+  {
+    "id": "provider-103",
+    "name": "Urban Relocate",
+    "service": "home-moving",
+    "city": "Dammam",
+    "rating": 3.7,
+    "contact": "+966570058020"
+  },
+  {
+    "id": "provider-104",
+    "name": "SmoothMove Services",
+    "service": "home-moving",
+    "city": "Jeddah",
+    "rating": 4.4,
+    "contact": "+966574904479"
+  },
+  {
+    "id": "provider-105",
+    "name": "HomePort Shifters",
+    "service": "home-moving",
+    "city": "Jeddah",
+    "rating": 4.0,
+    "contact": "+966517952208"
+  },
+  {
+    "id": "provider-106",
+    "name": "Pack & Shift",
+    "service": "home-moving",
+    "city": "Jeddah",
+    "rating": 4.7,
+    "contact": "+966543330977"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Riyadh",
+    "slug": "riyadh"
+  },
+  {
+    "id": 2,
+    "name": "Jeddah",
+    "slug": "jeddah"
+  },
+  {
+    "id": 3,
+    "name": "Makkah",
+    "slug": "makkah"
+  },
+  {
+    "id": 4,
+    "name": "Madinah",
+    "slug": "madinah"
+  },
+  {
+    "id": 5,
+    "name": "Dammam",
+    "slug": "dammam"
+  },
+  
+  {
+    "id": 6,
+    "name": "Taif",
+    "slug": "taif"
+  }
+ 
+]

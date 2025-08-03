@@ -1,0 +1,62 @@
+[
+  {
+    "id": "plumber",
+    "name": "Plumber",
+    "image": "/public/images/services-image/plumber.jpg"
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "image": "/public/images/services-image/electrician.webp"
+  },
+  {
+    "id": "ac-repair",
+    "name": "AC Repair",
+    "image": "/public/images/services-image/ac-repair_small.webp"
+  },
+  {
+    "id": "house-cleaning",
+    "name": "House Cleaning",
+    "image": "/public/images/services-image/house-cleaning.webp"
+  },
+  {
+    "id": "pest-control",
+    "name": "Pest Control",
+    "image": "/public/images/services-image/pest-control.webp"
+  },
+  {
+    "id": "gardener",
+    "name": "Gardener",
+    "image": "/public/images/services-image/gardener.webp"
+  },
+  {
+    "id": "carpenter",
+    "name": "Carpenter",
+    "image": "/public/images/services-image/carpenter-working.webp"
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry",
+    "image": "/public/images/services-image/laundry.webp"
+  },
+  {
+    "id": "cctv-installation",
+    "name": "CCTV Installation",
+    "image": "/public/images/services-image/cctv-security-camera-ceiling.webp"
+  },
+  {
+    "id": "home-tutor",
+    "name": "Home Tutor",
+    "image": "/public/images/services-image/home-tutor.webp"
+  },
+  {
+    "id": "elder-care",
+    "name": "Elder Care Assistance",
+    "image": "/public/images/services-image/elder-care.webp"
+  },
+  {
+    "id": "home-moving",
+    "name": "Home Moving Service",
+    "image": "/public/images/services-image/home-moving.webp"
+  }
+]
