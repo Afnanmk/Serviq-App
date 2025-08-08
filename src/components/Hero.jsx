@@ -47,7 +47,7 @@ const Hero = () => {
       // Fetch services
       useEffect(() => {
         
-        fetch("/public/data/services.json")
+        fetch("/data/services.json")
         .then(res => res.json())
         .then(data => {
           const options = data.map(service => ({
@@ -62,7 +62,7 @@ const Hero = () => {
       // Fetch cities
       useEffect(() => {
         
-        fetch("/public/data/cities.json")
+        fetch("/data/cities.json")
         .then(res => res.json())
         .then(data => {
           const options = data.map(city => ({

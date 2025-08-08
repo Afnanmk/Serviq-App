@@ -8,7 +8,7 @@ const ServicesPage = () => {
 
   useEffect(() => {
     
-      fetch("/public/data/services.json")
+      fetch("/data/services.json")
         .then(res => res.json())
         .then((data) => {
           setAllServices(data)
