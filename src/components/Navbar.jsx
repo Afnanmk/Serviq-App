@@ -9,7 +9,7 @@ const Navbar = () => {
         <div><h1 className='font-bold text-[1.6rem]'>SERVIQ.</h1></div>
         <nav className='hidden sm:flex gap-10 font-[500]'>
          <Link to="/"><li className='list-none'>Home</li></Link>
-         <Link><li className='list-none'>About</li></Link>
+         <Link to="/"><li className='list-none'>About</li></Link>
          <Link to="/services"><li className='list-none'>Services</li></Link>
         </nav>
         <button className='hidden sm:block bg-primary text-white font-[500] px-5 py-2 rounded-[4px]'>Login</button>

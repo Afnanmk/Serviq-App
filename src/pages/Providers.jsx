@@ -1,22 +1,19 @@
 import React, {useEffect, useState} from 'react'
 import { useSearchParams } from 'react-router-dom';
-import ProviderCard from '../components/providerCard';
+import ProviderCard from '../components/ProviderCard';
 
 const Providers = () => {
 
   const [providers, setProviders] = useState([]);
-  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-      fetch("/public/data/providers.json")
+      fetch("/data/providers.json")
         .then(res => res.json())
         .then((data) => {
           setProviders(data)
-          setLoading(false)
         })
         .catch((error) => {
         console.error("Failed to fetch services:", error);
-        setLoading(false);
       });
     
   }, []);
