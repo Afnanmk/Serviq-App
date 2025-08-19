@@ -7,6 +7,11 @@ import dot from '../assets/images/icons/dot-svgrepo-com.svg'
 
 
 const ProviderCard = ({id, name, rating, city, service, contact}) => {
+  const formatServiceName = (service) => {
+    return service.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+  }
+
+
   return (
     <div>
       
@@ -23,7 +28,7 @@ const ProviderCard = ({id, name, rating, city, service, contact}) => {
                 <img src={dot} className='w-6' alt="" />
                 <p>{city}</p>
               </div>
-              <p className='text-gray-900 font-[500] text-base py-3'>{service}</p>
+              <p className='text-gray-900 font-[500] text-base py-3'>{formatServiceName(service)}</p>
               <div className='flex items-center gap-3 flex-wrap'>
                 <a href={`tel:${contact}`} className='bg-primary text-white font-[500] px-3 py-2 rounded-[4px] inline-flex items-center gap-1'><img src={CallIcon} className='w-5 h-5' alt="" /><p>Call Now</p></a>
                 <a href={`tel:${contact}`} className='bg-green-500 hover:bg-green-600 text-white font-[500] px-3 py-2 rounded-[4px] inline-flex items-center gap-1'><img src={WhatsAppIcon} className='w-6 h-6' alt="" /><p>WhatsApp</p></a>

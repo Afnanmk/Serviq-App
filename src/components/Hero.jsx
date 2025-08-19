@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Select from 'react-select'
+import { useNavigate } from 'react-router-dom'
 // import Async, { useAsync } from 'react-select/async';
 import HeroImage from '../assets/images/repair-household-appliances-abstract-concept-illustration.png'
 
@@ -37,17 +38,19 @@ const Hero = () => {
     textAlign: "left"
   })
   };
-
+      
+      
+      const navigate = useNavigate()
       const [cities, setCities] = useState([]);
       const [services, setServices] = useState([]);
-      // const [selectedCity, setSelectedCity] = (null)
-      // const [selectedService, setSelectedService] = (null)
+      const [selectedCity, setSelectedCity] = useState(null)
+      const [selectedService, setSelectedService] = useState(null)
 
 
       // Fetch services
       useEffect(() => {
         
-        fetch("/public/data/services.json")
+        fetch("/data/services.json")
         .then(res => res.json())
         .then(data => {
           const options = data.map(service => ({
@@ -62,7 +65,7 @@ const Hero = () => {
       // Fetch cities
       useEffect(() => {
         
-        fetch("/public/data/cities.json")
+        fetch("/data/cities.json")
         .then(res => res.json())
         .then(data => {
           const options = data.map(city => ({
@@ -74,6 +77,15 @@ const Hero = () => {
       }, []);
 
 
+   
+      const handleSearch = () => {
+        if(selectedService && selectedCity) {
+          navigate(`/results?service=${selectedService.value}&city=${selectedCity.label}`)
+        }
+      }
+
+
+
   return (
     <div className='bg-[#fceceb] min-h-screen flex flex-col items-center justify-center'>
         <div className='w-[85%] sm:w-[70%] text-center pt-10'>
@@ -83,10 +95,10 @@ const Hero = () => {
 </p>
             <div className='flex flex-col md:flex-row justify-center items-center gap-4 mt-6 max-w-[400px] md:max-w-[800px] mx-auto'>
                 
-      <div className='w-full md:w-1/3 rounded-[4px]'><Select options={services} styles={customStyles} placeholder="Select a service..." /></div>
-      <div className='w-full md:w-1/3 rounded-[4px]'><Select options={cities} styles={customStyles} placeholder="Select a city..."/></div>
+      <div className='w-full md:w-1/3 rounded-[4px]'><Select options={services} onChange={(options) => setSelectedService(options)} styles={customStyles} placeholder="Select a service..." /></div>
+      <div className='w-full md:w-1/3 rounded-[4px]'><Select options={cities} onChange={(options) => setSelectedCity(options)} styles={customStyles} placeholder="Select a city..."/></div>
 
-      <button type="submit" className='bg-primary text-white font-[500] px-5 py-2 rounded-[4px]'>Search</button>
+      <button type="submit" onClick={handleSearch} className='bg-primary text-white font-[500] px-5 py-2 rounded-[4px]'>Search</button>
             </div>
         </div>
 
