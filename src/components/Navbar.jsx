@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import menuIcon from '../assets/images/icons/hamburger-5-svgrepo-com.svg'
+import LanguageToggle from './LanguageToggle'
+import ThemeToggle from './ThemeToggle'
 
 const Navbar = () => {
   return (
@@ -12,7 +14,11 @@ const Navbar = () => {
          <Link><li className='list-none'>About</li></Link>
          <Link to="/services"><li className='list-none'>Services</li></Link>
         </nav>
+        <div className='flex gap-4 items-center'>
+        <div><ThemeToggle/></div>
+        <div><LanguageToggle/></div>
         <button className='hidden sm:block bg-primary text-white font-[500] px-5 py-2 rounded-[4px]'>Login</button>
+        </div>
         <button className='sm:hidden'><img src={menuIcon} className='w-10' alt="" /></button>
     </div>
     </div>
